@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #0F0D13;
+  --bg-player: #2A2141;
+  --bg-track: #D9D9D9;
+  --font-default: #E1E1E6;
+  --time: #C4C4CC;
+}
+
+/* GERAL */
+body {
+  background-color: var(--bg);
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-areas: 
+  'A B'
+  'A C';
+
+  gap: 2rem;
+  place-content: center;
+  height: 100vh;
+}
+
+.player {
+  background-color: var(--bg-player);
+  padding: 1.75rem;
+  border-radius: 0.625rem;
+}
+
+.player img {
+  width: 5.25rem;
+  height: 5.25rem;
+  object-fit: cover;
+  border: 0.375rem;
+}
+
+.info-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.info {
+  color: var(--font-default);
+}
+
+.info h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.info p {
+  opacity: 0.7;
+  font-size: 1.25rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.75rem;
+}
+
+.horizontal .controls {
+  padding-inline: 3.625rem;
+}
+
+.track {
+  margin-top: 1.75rem;
+  position: relative;
+}
+
+.track::before{
+  content: '';
+  height: 0.375rem;
+  width: 100%;
+  display: block;
+  background: var(--bg-track);
+  opacity: 0.3;
+  border-radius: 0.625rem;
+
+  position: absolute;
+}
+
+.track::after {
+  content: '';
+  height: 0.375rem;
+  width: 80%;
+  display: block;
+  background: var(--bg-track);
+  border-radius: 0.625rem;
+}
+
+.time {
+  font-size: 0.875rem;
+  color: var(--time);
+  opacity: 0.7;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 0.625rem;
+}
+
+/* PLAYER 1 */
+#player-1 {
+  grid-area: A;
+  padding: 3.125rem 2.375rem;
+}
+
+#player-1 .wrapper {
+  width: 11.875rem;
+}
+
+#player-1 img {
+  width: 11.875rem;
+  height: 11.875rem;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+#player-1 .info {
+  margin-top: 1.75rem;
+}
+
+/* PLAYER 2 */
+#player-2 {
+  grid-area: B;
+  height: fit-content;
+}
+
+#player-2 img {
+  width: 5.25rem;
+  height: 5.25rem;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+/* PLAYER 3 */
+#player-3 {
+  grid-area: C;
+}
+
+#player-3 img {
+  width: 5.25rem;
+  height: 5.25rem;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+/* RESPONSIVE */
+@media (max-width: 670px) {
+  #app {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 16.875rem;
+    margin: auto;
+
+    height: auto;
+
+    padding-block: 3.75rem;
+  }
+
+  .horizontal .controls {
+    padding-inline: 1.875rem;
+  }
+}
