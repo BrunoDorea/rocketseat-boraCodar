@@ -34,6 +34,16 @@ Desafios semanais proposto pela Rocketseat para o projeto [Bora Codar](https://b
     </td>
   </tr>
   <tr>
+    <td>02</td>
+    <td>Card de Produto</td>
+    <td>
+      <a href="https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-02">👨🏿‍💻</a>
+    </td>
+    <td>
+      <a href="https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-02">🏁</a>
+    </td>
+  </tr>
+  <tr>
     <td>03</td>
     <td>Botões e Cursores</td>
     <td>
