@@ -30,9 +30,6 @@ body * {
 }
 
 .calculator {
-  width: 356px;
-  height: 566px;
-
   background: var(--bg-calculator);
   box-shadow: 
     0px 4px 4px rgba(0, 0, 0, 0.25), 
@@ -55,7 +52,7 @@ body * {
   text-align: right;
   font-size: 20px;
   line-height: 140%;
-  color: var(--text);
+  color: var(--text-last-result);
 }
 
 #result {
@@ -71,8 +68,7 @@ body * {
 }
 
 #keyboard {
-  margin-top: 26px;
-  margin-inline: 32px;
+  padding: 26px 32px 32px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -81,8 +77,6 @@ body * {
 
 button {
   border: 0;
-  background-color: transparent;
-
   width: 64px;
   height: 64px;
 
