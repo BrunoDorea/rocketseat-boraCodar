@@ -19,65 +19,11 @@ Desafios semanais proposto pela Rocketseat para o projeto [Bora Codar](https://b
 | ### | Projeto | Código | Live Preview |
 | :-: | :-----: | :----: | :----------: |
 | 01 | Player de Música | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-01) | [🏁](https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-01)
-
-<table>
-<tr>
-    <th>#</th>
-    <th>Projeto</th>
-    <th>Código</th>
-    <th>Live Preview</th>
-  </tr>
-  <tr>
-    <td>01</td>
-    <td>Player de Música</td>
-    <td>
-      <a href="https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-01">👨🏿‍💻</a>
-    </td>
-    <td>
-      <a href="https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-01">🏁</a>
-    </td>
-  </tr>
-  <tr>
-    <td>02</td>
-    <td>Card de Produto</td>
-    <td>
-      <a href="https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-02">👨🏿‍💻</a>
-    </td>
-    <td>
-      <a href="https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-02">🏁</a>
-    </td>
-  </tr>
-  <tr>
-    <td>03</td>
-    <td>Botões e Cursores</td>
-    <td>
-      <a href="https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-03">👨🏿‍💻</a>
-    </td>
-    <td>
-      <a href="https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-03">🏁</a>
-    </td>
-  </tr>
-  <tr>
-    <td>04</td>
-    <td>Chat</td>
-    <td>
-      <a href="https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-04">👨🏿‍💻</a>
-    </td>
-    <td>
-      <a href="https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-04">🏁</a>
-    </td>
-  </tr>
-  <tr>
-    <td>05</td>
-    <td>Calculador</td>
-    <td>
-      <a href="https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-05">👨🏿‍💻</a>
-    </td>
-    <td>
-      <a href="https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-05">🏁</a>
-    </td>
-  </tr>
-</table>
+| 02 | Card de Produto | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-02) | [🏁](https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-02)
+| 03 | Botões e Cursores | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-03) | [🏁](https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-03)
+| 04 | Chat | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-04) | [🏁](https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-04)
+| 05 | Calculadora | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-05) | [🏁](https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-05)
+| 06 | Cartão de Embarque | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-06) | [🏁](https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-06)
 
 ## 🚀 Tecnologias
 
