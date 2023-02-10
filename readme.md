@@ -63,6 +63,16 @@ Desafios semanais proposto pela Rocketseat para o projeto [Bora Codar](https://b
       <a href="https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-04">🏁</a>
     </td>
   </tr>
+  <tr>
+    <td>05</td>
+    <td>Calculador</td>
+    <td>
+      <a href="https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-05">👨🏿‍💻</a>
+    </td>
+    <td>
+      <a href="https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-05">🏁</a>
+    </td>
+  </tr>
 </table>
 
 ## 🚀 Tecnologias
