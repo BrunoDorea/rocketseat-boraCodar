@@ -16,6 +16,10 @@
 
 Desafios semanais proposto pela Rocketseat para o projeto [Bora Codar](https://boracodar.dev/).
 
+| ### | Projeto | Código | Live Preview |
+| :-: | :-----: | :----: | :----------: |
+| 01 | Player de Música | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-01) | [🏁](https://https://bh-tec.github.io/rocketseat-boraCodar/desafio-01)
+
 <table>
 <tr>
     <th>#</th>
