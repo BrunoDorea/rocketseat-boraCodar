@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- FAVICON -->
+  <link rel='shortcut icon' href='../assets/favicon.png' type='image/png'>
+  <!-- CSS -->
+  <link rel='stylesheet' href='./css/style.css'>
+  <!-- JAVASCRIPT -->
+  <script src='./js/main.js' defer></script>
+  <!-- PHOSPHOR ICONS -->
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <title>CarnaDev 2023 | Bruno H</title>
+</head>
+  <body>
+    <header>
+      <div class="content">
+        <div class="top">
+          <p>find your block</p>
+          <h1>Encontre os<span> melhores blocos </span>do carnaval de 2023</h1>
+        </div>
+          
+        <form action="" id="search">
+          <div class="search-field">
+            <label class="sr-only" for="name">Pesquise por nome</label>
+            <i class="ph-magnifying-glass"></i>
+            <input type="text" id="name" name="name" placeholder="Pesquise por nome">
+          </div>
+
+          <div class="search-field select">
+            <label class="sr-only" for="city">Selecione uma cidade</label>
+            <i class="ph-map-pin"></i>
+            <select name="city" id="city">
+              <option value="0" selected>Selecione sua cidade</option>
+              <option value="rio-de-janeiro">Rio de Janeiro - RJ</option>
+              <option value="salvador">Salvador - BA</option>
+              <option value="sao-paulo">São Paulo - SP</option>
+            </select>
+            <i class="ph-caret-down-light"></i>
+          </div>
+
+          <button class="btn primary">Buscar agora</button>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <div class="content">
+        <section class="top">
+          <h2>Blocos recomendados</h2>
+          <div class="view">
+            <button class="btn primary">Mapa</button>
+            <button class="btn secondary">Lista</button>
+          </div>
+        </section>
+
+        <section class="cards">
+
+          <!-- card 1 -->
+          <div class="card">
+            <img src="./assets/unsplash_b2jkMC95a_8.png" alt="">
+
+            <div class="content">
+              <h3>O Python do vovô não sobe mais</h3>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+              <div class="location">
+                <i class="ph-map-pin"></i>
+                São Paulo - SP
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </div>
+    </main>
+
+  </body>
+</html>
