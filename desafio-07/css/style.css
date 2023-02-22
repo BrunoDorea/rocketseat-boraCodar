@@ -252,3 +252,49 @@ section.cards {
   font-size: 2.4rem;
   opacity: 1;
 }
+
+/* responsive */
+main {
+  padding-inline: 4rem;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 50%;
+  }
+
+  header::before {
+    background-size: 30vw;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 870px) {
+  header .content {
+    padding: 4rem;
+  }
+
+  header form {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 660px) {
+  section.cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  section.cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    width: 100%;
+  }
+  
+  .card {
+    max-width: 100%;
+  }
+}
