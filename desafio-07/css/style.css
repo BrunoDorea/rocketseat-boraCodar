@@ -13,10 +13,10 @@
 
 .sr-only {
   position: absolute;
-  width: 1px;
-  height: 1px;
+  width: .1rem;
+  height: .1rem;
   padding: 0;
-  margin: -1px;
+  margin: -.1rem;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
@@ -40,25 +40,24 @@
 }
 
 .primary {
-  background: #6246EA;
+  background: #6246ea;
 
-  color: #FFFFFF;
+  color: #fff;
   transition: background 200ms;
 }
 
 .primary:hover {
   background: #523dbe;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .secondary {
   color: #6246ea;
-  background: transparent;
 }
 
-.secondary:hover{
+.secondary:hover {
   background-color: #6246ea;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 body {
@@ -123,7 +122,7 @@ header p {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 
-  color: #E45858;
+  color: #e45858;
 }
 
 header h1 {
@@ -135,17 +134,17 @@ header h1 {
 }
 
 header h1 span {
-  color: #6246EA;
+  color: #6246ea;
 }
 
-header form {
+form {
   margin-top: 4rem;
   display: flex;
   padding: 4rem;
   gap: 2.4rem;
 
-  background: #FFFFFF;
-  border: .1rem solid #EAEAEA;
+  background: #fff;
+  border: 0.1rem solid #eaeaea;
   border-radius: 1rem;
 }
 
@@ -162,15 +161,16 @@ header form {
 input,
 select {
   color: #7c7c8a;
-  min-width: 29re;
+  min-width: 29rem;
 }
 
 .search-field i {
-  color: #E45858;
+  color: #e45858;
   font-size: 2.4rem;
 }
 
-select, .select {
+select,
+.select {
   position: relative;
 }
 
@@ -185,7 +185,7 @@ select {
   color: #858793;
 }
 
-form button {
+form button.btn {
   padding: 1.2rem 3.2rem;
 }
 
@@ -202,11 +202,10 @@ section.top {
 
 section.top .view {
   display: flex;
-  padding: .8rem;
+  padding: 0.8rem;
 
-  border: .1rem solid #eaeaea;
-  border-radius: .6rem;
-  gap: .8rem;
+  border: 0.1rem solid #eaeaea;
+  border-radius: 0.6rem;
 }
 
 section.cards {
@@ -218,9 +217,10 @@ section.cards {
 }
 
 .card {
-  max-width: 38.4rem;
-  border: .1rem solid #EAEAEA;
+  background: #fff;
+  border: 0.1rem solid #eaeaea;
   border-radius: 1rem;
+  max-width: 38.4rem;
   overflow: hidden;
 }
 
@@ -230,14 +230,6 @@ section.cards {
   padding: 1.6rem;
 }
 
-.card .location {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
-
-  opacity: .75;
-}
-
 .card h3 {
   color: #121214;
   font-size: 2rem;
@@ -245,11 +237,18 @@ section.cards {
 }
 
 .card p {
+  opacity: 0.75;
+}
+
+.card .location {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
   opacity: .75;
 }
 
 .location i {
-  color: #E45858;
+  color: #e45858;
   font-size: 2.4rem;
   opacity: 1;
 }
