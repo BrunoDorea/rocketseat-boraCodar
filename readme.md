@@ -26,6 +26,7 @@ Desafios semanais proposto pela Rocketseat para o projeto [Bora Codar](https://b
 | 06 | Cartão de Embarque | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-06) | [🏁](https://bh-tec.github.io/rocketseat-boraCodar/desafio-06) |
 | 07 | Site de Carnaval | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-07) | [🏁](https://bh-tec.github.io/rocketseat-boraCodar/desafio-07) |
 | 08 | Dashboard | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-08) | [🏁](https://bh-tec.github.io/rocketseat-boraCodar/desafio-08) |
+| 09 | Conversor de moedas | [👨🏿‍💻](https://github.com/BH-Tec/rocketseat-boraCodar/tree/main/desafio-09) | [🏁](https://bh-tec.github.io/rocketseat-boraCodar/desafio-09) |
 
 ## 🚀 Tecnologias
 
