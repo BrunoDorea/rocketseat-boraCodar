@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Inter';
+}
+
+.grid {
+  display: grid;
+}
+
+#app {
+  background: #292738;
+
+  grid-template-columns: 29.6rem max-content max-content;
+  grid-template-rows: max-content;
+  column-gap: 3.2rem;
+  row-gap: 5.9rem;
+
+  width: fit-content;
+  height: fit-content;
+  min-width: 100vw;
+  min-height: 100vh;
+
+  place-content: center;
+}
+
+.box {
+  padding: 2.9rem 4.8rem;
+
+  background: #363447;
+  box-shadow: .3rem .4rem 2.6rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.6rem;
+  color: white;
+  line-height: 160%;
+}
+
+.box:nth-child(4) {
+  grid-column: 1/4;
+}
+
+.top {
+  font-weight: 600;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+
+.bottom .item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bottom .item span:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.bottom .item span {
+  --bg-color: #4a4556;
+}
+
+.bottom .item span:nth-child(1)::before {
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  background: var(--bg-color);
+  border-radius: 999px;
+}
+
+.nps {
+  gap: 3.2rem;
+}
+
+.nps .middle {
+  height: 19.7rem;
+  place-content: center;
+  justify-items: center;
+  gap: 1.6rem;
+  color: #81f888;
+}
+
+.nps .bottom {
+  font-weight: 500;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.middle {
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+
+svg {
+  --percentage: 0 width: 19.7rem;
+  height: 19.7rem;
+  transform: rotate(-90deg);
+}
+
+svg circle {
+  stroke-dasharray: 618;
+  stroke-dashoffset: 618;
+  stroke-width: 35;
+  fill: none;
+}
+
+svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+}
+
+svg circle:nth-child(2) {
+  /* stroke-dashoffset: calc(618 - ((618 * 70) / 100)); */
+  stroke-dashoffset: calc(618 - ((618 * var(--percentage)) / 100));
+  stroke-linecap: round;
+
+  animation: progress 1s ease-in-out forwards;
+}
+
+.middle .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content h3 {
+  font-size: 3.4rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.weekly-sell {
+  gap: 3.2rem;
+}
+
+.weekly-sell .wrapper {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.weekly-sell .left {
+  gap´: 3.2rem;
+}
+
+.left .grid {
+  gap: .8rem;
+}
+
+
+
+
+
+
+
+
+/* KeyFrames */
+@keyframes progress {
+  0% {
+    stroke-dasharray: 618;
+    stroke-dashoffset: 618;
+  }
+}
