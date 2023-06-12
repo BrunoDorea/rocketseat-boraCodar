@@ -30,6 +30,7 @@ Desafios semanais proposto pela Rocketseat para o projeto [Bora Codar](https://b
 | 10  |        Clima         | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-10) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-10) |
 | 11  |        Login         | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-11) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-11) |
 | 19  | Widget de Transporte | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-19) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-19) |
+| 20  |   Profile Settings   | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-20) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-20) |
 
 ## 🚀 Tecnologias
 
