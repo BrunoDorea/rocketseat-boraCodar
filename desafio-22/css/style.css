@@ -90,6 +90,7 @@ label {
     display: flex;
     align-items: center;
     gap: .8rem;
+    cursor: pointer;
 }
 
 .default div p {
