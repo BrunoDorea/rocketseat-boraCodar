@@ -32,6 +32,12 @@ form {
   padding: 3.2rem;
   border: 1px solid var(--color-base-gray-100);
   border-radius: 0.6rem;
+
+  overflow: hidden;
+  background-color: var(--color-base-white);
+  z-index: 10;
+  position: relative;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .step-progress {
@@ -40,7 +46,7 @@ form {
   gap: 4rem;
 
   border-bottom: 1px solid var(--color-base-gray-100);
-  padding-bottom: 3.2rem;
+  padding: 3.2rem;
 
   counter-reset: step;
 }
@@ -72,6 +78,7 @@ form {
   justify-content: center;
 
   color: var(--color-base-gray-200);
+  transition: background-color 400ms ease-in-out;
 }
 
 .step-progress .active::before {
@@ -139,7 +146,7 @@ label {
 input,
 textarea {
   width: 100%;
-  margin-top: 4px;
+  margin-top: .4rem;
 
   padding: 1.6rem;
   background-color: var(--color-base-white);
@@ -149,14 +156,63 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-    color: var(--color-base-gray-200);
-    font-family: 'IBM Plex Sans';
+  color: var(--color-base-gray-200);
+  font-family: 'IBM Plex Sans';
+}
+
+textarea {
+  resize: none;
+}
+
+input:hover,
+textarea:hover {
+  border-color: var(--color-produto-purple-mid);
+}
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--color-produto-purple-light);
+}
+
+label:has(+ input[required])::after {
+  content: ' *';
+  color: var(--color-produto-purple-light);
 }
 
 .form-step {
-    display: none;
+  display: block;
+}
+
+@keyframes appear {
+  0% {
+    scale: 0.7;
+    opacity: 0;
+  }
 }
 
 .form-step.active {
-    display: block;
+  animation: appear 200ms 100ms ease-in-out backwards;
+}
+
+@keyframes slideout {
+  100% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  100% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+}
+
+
+.form-step {
+  animation: slidein 200ms ease-out forwards;
+  /* animation: slideout 200ms ease-out forwards; */
+}
+
+.hide {
+  display: none;
 }

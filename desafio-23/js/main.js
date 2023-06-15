@@ -1,13 +1,10 @@
 let currentStep = 0
-const formStep = document.querySelectorAll('.form-step')
+const formSteps = document.querySelectorAll('.form-step')
 const form = document.querySelector('form')
 
 // steps
 form.addEventListener('click', (e) => {
-    if (!e.target.matches('[data-action]')) {
-        return
-    }
-
+    if(!e.target.matches('[data-action]')) { return }
     const actions = {
         next() {
             if(!isValidInputs()) { return }
@@ -31,13 +28,13 @@ form.addEventListener('submit', (e) => {
 
 // update steps
 function updateActiveStep() {
-    formStep.forEach(step => step.classList.remove('active'))
-    formStep[currentStep].classList.add('active')
+    formSteps.forEach((step) => step.classList.remove('active'))
+    formSteps[currentStep].classList.add('active')
 }
 
-const progressStep = document.querySelectorAll('.step-progress [data-step]')
+const progressSteps = document.querySelectorAll('.step-progress [data-step]')
 function updateProgressStep() {
-    progressStep.forEach((step, idx) => {
+    progressSteps.forEach((step, idx) => {
         step.classList.remove('active')
         step.classList.remove('done')
 
@@ -48,13 +45,26 @@ function updateProgressStep() {
         if (idx < currentStep) {
             step.classList.add('done')
         }
-    })
+    });
 }
 
 // validation
 function isValidInputs() {
     const currentFormStep = formSteps[currentStep]
-    const formFields = [...currentFormStep.querySelectorAll('input'), currentFormStep.querySelectorAll('textarea')]
+    const formFields = [...currentFormStep.querySelectorAll('input'), ...currentFormStep.querySelectorAll('textarea')]
 
     return formFields.every((input) => input.reportValidity())
 }
+
+// animation
+formSteps.forEach((formStep) => {
+    function addHide() {
+        formStep.classList.add('hide')
+    }
+
+
+    formStep.addEventListener('animationend', () => {
+        addHide();
+        formSteps[currentStep].classList.remove('hide')
+    });
+});
