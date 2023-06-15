@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Titillium+Web:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="./js/main.js" defer></script>
+    <title>Formulário Multi Step | Bruno Henrique</title>
+  </head>
+  <body>
+    <main id="app">
+      <form>
+
+        <div class="step-progress">
+          <strong class="active" data-step>Contato</strong>
+
+          <img src="./assets/caret-right.svg" />
+
+          <strong data-step>Empresa</strong>
+
+          <img src="./assets/caret-right.svg" />
+
+          <strong data-step>Projeto</strong>
+        </div>
+ 
+        <div class="form-step active">
+          <div class="content">
+            <div class="input-wrapper">
+              <label for="name">Nome</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Como prefere ser chamado"
+                required
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input
+                id="phone"
+                name="phone"
+                type="text"
+                placeholder="Informe seu número de telefone"
+                onkeypress="return /\d/.test(event.key)  "
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Informe seu email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="button-wrapper justify-end">
+            <button type="button" class="btn primary" data-action="next">Continuar</button>
+          </div>
+        </div>
+
+        <div class="form-step">
+          <div class="content">
+            <div class="input-wrapper">
+              <label for="business-name">Nome da Empresa</label>
+              <input
+                id="business-name"
+                name="business-name"
+                type="text"
+                placeholder="Informe o nome da empresa"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="business-colab">Nº de Funcionários</label>
+              <input
+                id="business-colab"
+                name="business-colab"
+                type="text"
+                placeholder="Informe o número de funcionários"
+                onkeypress="return /\d/.test(event.key)  "
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="business-about">Sobre seu negócio</label>
+              <textarea
+                id="business-about"
+                name="business-about"
+                cols="30"
+                rows="10"
+                placeholder="Fale um pouco sobre seus produtos e serviços"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="button-wrapper">
+            <button type="button" class="btn secondary" data-action="prev">Voltar</button>
+            <button type="button" class="btn primary" data-action="next">Continuar</button>
+          </div>
+        </div>
+
+        <div class="form-step">
+            <div class="content">
+  
+              <div class="input-wrapper">
+                <label for="business-about">Objetivo do projeto</label>
+                <textarea
+                  id="business-about"
+                  name="business-about"
+                  cols="30"
+                  rows="10"
+                  placeholder="Descreva quais os objetivos desse projeto"
+                ></textarea>
+              </div>
+            </div>
+  
+            <div class="button-wrapper">
+              <button type="button" class="btn secondary" data-action="prev">Voltar</button>
+              <button type="submit" class="btn primary">Enviar resposta</button>
+            </div>
+          </div>
+
+      </form>
+    </main>
+  </body>
+</html>
