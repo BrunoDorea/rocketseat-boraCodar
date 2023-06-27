@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="./js/main.js" defer></script>
+    <!-- PHOSPHOR ICONS -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Ajustes de Iluminação | Bruno Henrique</title>
+  </head>
+  <body>
+    <main>
+      <div class="preview"></div>
+
+      <span>Ajustes de Iluminação</span>
+
+      <div class="controls">
+
+        <div class="hue">
+            <i class="ph-thin ph-palette"></i>
+            
+            <div>
+                <input type="range" id="hue-slider" min="0" max="360" step="1" value="0">
+            </div>
+
+        </div>
+
+        <div class="brightness">
+            <i class="ph-thin ph-sun"></i>
+
+            <div>
+                <input type="range" id="brightness-slider" min="0" max="100" step="1" value="100">
+            </div>
+        </div>
+
+        <div class="contrast">
+            <i class="ph-thin ph-circle-half"></i>
+
+            <div>
+                <input type="range" id="contrast-slider" min="0" max="100" step="1" value="100">
+            </div>
+        </div>
+
+      </div>
+
+    </main>
+  </body>
+</html>
