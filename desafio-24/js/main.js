@@ -9,7 +9,6 @@ colorSlider.addEventListener('input', function() {
 
     colorPreview.style.backgroundColor = color
     colorPreview.style.boxShadow = `0px 0px 53px 13px ${color}`
-    colorPreview.style.backgroundColor = color
 })
 
 brightnessSlider.addEventListener('input', function() {
