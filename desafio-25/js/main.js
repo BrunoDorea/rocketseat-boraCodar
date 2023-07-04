@@ -11,9 +11,9 @@ const videoId = 'qC0vDKVPCrw'
 function createAmbientLight() {
     if (!animationHasEnded) return
 
-    ambientLight = new YT.Player('video', {
+    ambientLight = new YT.Player('ambient-light', {
         videoId,
-        events: { 
+        events: {
             onReady: ambientLightReady,
             onStateChange: ambientStateChange,
         }
@@ -23,7 +23,7 @@ function createAmbientLight() {
 window.onYouTubeIframeAPIReady = function () {
     video = new YT.Player('video', {
         videoId,
-        events: { 
+        events: {
             onStateChange: videoStateChange,
         }
     })
@@ -48,11 +48,10 @@ function betterAmbientLight(event) {
     event.target.mute()
 
     const qualityLevels = event.target.getAvailableQualityLevels()
-    if(qualityLevels && qualityLevels.legth && qualityLevels.legth > 0) {
-        qualityLevels.reserve()
-        const lowestLevel = qualityLevels(qualityLevels.findIndex(e => q !== 'auto'))
-        
-        event.target.setPlaybackQuality(lowestLevel)
+    if(qualityLevels && qualityLevels.length && qualityLevels.length > 0) {
+        qualityLevels.reverse()
+        const lowerstLevel = qualityLevels[qualityLevels.findIndex(q => q !== 'auto')]
+        event.target.setPlaybackQuality(lowerstLevel)
     }
 }
 
@@ -65,12 +64,11 @@ function ambientStateChange(event) {
         case YT.PlayerState.BUFFERING:
         case YT.PlayerState.PLAYING:
             betterAmbientLight(event)
-            break
     }
 }
 
 const app = document.querySelector('#app')
-app.addEventListener('animationed', e => {
+app.addEventListener('animationend', e => {
     if(e.animationName !== 'appear') return
 
     animationHasEnded = true
