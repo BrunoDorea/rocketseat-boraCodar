@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="./js/main.js" defer></script>
+
+    <title>Player de VR | Bruno Henrique</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="nav-bar">
+        <div class="actions">
+          <i class="ai-panel-left"></i>
+          <ion-icon name="chevron-back-outline"></ion-icon>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+
+        <div class="address-bar">
+          <div class="text">Aa</div>
+          <div class="address">
+            <ion-icon name="lock-closed"></ion-icon>
+            rocketseat.com
+          </div>
+          <ion-icon name="refresh"></ion-icon>
+        </div>
+
+        <div class="actions">
+          <ion-icon name="share-outline"></ion-icon>
+          <ion-icon name="add-outline"></ion-icon>
+          <ion-icon name="copy-outline"></ion-icon>
+        </div>
+      </header>
+
+      <aside class="side-menu">
+        <ion-icon name="play-circle-outline"></ion-icon>
+        <ion-icon name="accessibility-outline"></ion-icon>
+        <ion-icon name="albums-outline"></ion-icon>
+        <ion-icon name="search-outline"></ion-icon>
+      </aside>
+
+      <main class="screen">
+        <div id="video"></div>
+        <div id="ambient-light"></div>
+      </main>
+
+      <footer class="interaction">
+        <div class="elipse"></div>
+        <div class="rectangle"></div>
+      </footer>
+    </div>
+
+    <!-- ION ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- AKAR ICONS -->
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+  </body>
+</html>
