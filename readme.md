@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://brunodorea.github.io/rocketseat-boraCodar/">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">🖥️ Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">📝 License</a>
@@ -33,14 +34,14 @@ Desafios semanais proposto pela Rocketseat para o projeto [Bora Codar](https://b
 | 22  |   Profile Settings    | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-22) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-22) |
 | 23  |   Multi Step Forms    | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-23) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-23) |
 | 24  | Ajustes de Iluminação | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-24) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-24) |
+| 25  |     Player de VR      | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-25) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-25) |
 
 ## 🚀 Tecnologias
 
 <p align="center">
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="javascript" title ="javascript">
-
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" title ="HTML">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" title ="CSS">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" title ="JavaScript">
 </p>
 
 ## 📝 License
