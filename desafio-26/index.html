@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3&family=Source+Serif+4:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="./js/main.js" defer></script>
+    <title>Página de receitas | Bruno Henrique</title>
+  </head>
+  <body>
+    <section class="top">
+      <picture>
+        <img src="./assets/pamonha.png" alt="Pamonha" />
+      </picture>
+
+      <div class="info">
+        <h1>Pamonha</h1>
+
+        <p>Prato típico com milho verde ralado</p>
+
+        <div class="buttons">
+          <span>Porções</span>
+
+          <button id="buttons-less" onclick="decreaseCounter()">
+            <img src="./assets/less.svg" alt="Botão menos" />
+          </button>
+
+          <p id="counter">01</p>
+
+          <button id="buttons-plus" onclick="increaseCounter()">
+            <img src="./assets/plus.svg" alt="Botão mais" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom">
+      <div class="col1">
+        <div>
+          <img src="./assets/bag.svg" alt="Icone de cesta de mercado" />
+
+          <h1>Ingredientes</h1>
+        </div>
+
+        <ul>
+          <li>1 espiga de milho verde</li>
+          <li>1 colher de sopa de açúcar</li>
+          <li>1 colher de sopa de manteiga</li>
+          <li>Sal a gosto</li>
+          <li>Palha de milho (para embrulhar)</li>
+        </ul>
+      </div>
+
+      <div class="col2">
+        <div>
+          <img src="./assets/pan.svg" alt="Icone de uma panela" />
+
+          <h1>Modo de preparo</h1>
+        </div>
+
+        <ol>
+          <li>Descasque a espiga de milho e corte os grãos.</li>
+          <li>Bata o milho, açúcar, manteiga e sal no liquidificador.</li>
+          <li>Coloque a massa nas palhas de milho e feche bem.</li>
+          <li>Cozinhe em água fervente por cerca de 40 minutos.</li>
+          <li>Deixe esfriar e sirva.</li>
+        </ol>
+      </div>
+    </section>
+  </body>
+</html>
