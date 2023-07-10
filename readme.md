@@ -35,6 +35,7 @@ Desafios semanais proposto pela Rocketseat para o projeto [Bora Codar](https://b
 | 23  |   Multi Step Forms    | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-23) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-23) |
 | 24  | Ajustes de Iluminação | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-24) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-24) |
 | 25  |     Player de VR      | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-25) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-25) |
+| 26  |       Contador        | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-26) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-26) |
 
 ## 🚀 Tecnologias
 
