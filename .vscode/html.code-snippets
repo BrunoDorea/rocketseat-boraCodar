@@ -8,7 +8,7 @@
 	// Example:
 	"HTML Bruno": {
 		"scope": "html",
-		"prefix": "html:bruno",
+		"prefix": "html-default",
 		"body": [
 			"<!DOCTYPE html>",
 			"<html lang='pt-br'>",
@@ -23,7 +23,7 @@
 			"<link rel='stylesheet' href='./css/style.css'>",
 			"<!-- JAVASCRIPT -->",
 			"<script src='./js/main.js' defer></script>",
-			"<title>Document | Bruno H</title>",
+			"<title>Document | Bruno Dórea</title>",
 			"</head>",
 			"<body>",
 			"</body>",

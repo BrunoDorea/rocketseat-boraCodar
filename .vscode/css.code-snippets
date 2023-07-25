@@ -8,7 +8,7 @@
 	// Example:
 	"Init my CSS": {
     "scope": "css",
-    "prefix": "css-init",
+    "prefix": "css-default",
     "body": [
       "* {",
       "\tmargin: 0;",
