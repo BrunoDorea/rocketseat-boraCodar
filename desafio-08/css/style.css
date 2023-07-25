@@ -254,8 +254,7 @@ svg circle:nth-child(2) {
 }
 
 /* Responsividade */
-
-@media (min-width: 120rem) {
+@media (min-width: 1200px) {
   #app {
     grid-template-columns: 29.6rem max-content max-content;
     grid-template-rows: max-content;

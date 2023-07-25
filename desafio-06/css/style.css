@@ -18,9 +18,10 @@ body {
   background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%) no-repeat fixed;
 
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: grid;
   place-content: center;
+  overflow-x: hidden;
 }
 
 .grid {
