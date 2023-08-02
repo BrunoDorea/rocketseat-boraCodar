@@ -31,6 +31,7 @@ body {
 button {
   font-family: "Outfit", sans-serif;
   border: none;
+  cursor: pointer;
 }
 
 .card {
