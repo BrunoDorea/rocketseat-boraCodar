@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="./js/main.js" defer></script>
+    <title>Sistema de Recomendação de Filmes | Bruno Dórea</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-TJQ2XJZPTD");
+    </script>
+  </head>
+  <body>
+    <section class="card">
+      <div class="container">
+        <header>
+          <img src="./assets/Logo.svg" alt="" />
+
+          <button onclick="start()">
+            <p>Nova recomendação</p>
+            <img src="./assets/icones/Gerar.svg" alt="" />
+          </button>
+        </header>
+
+        <section class="movies">
+
+          <div class="movie">
+            <div class="title">
+              <span>Barbie</span>
+
+              <div>
+                <img src="./assets/icones/Star.svg" alt="" />
+                <p>4.9</p>
+              </div>
+            </div>
+
+            <div class="poster">
+              <img src="./assets/barbie.png" alt="" />
+            </div>
+
+            <div class="info">
+              <div class="duration">
+                <img src="./assets/icones/Clock.svg" alt="" />
+                <span>1:54:00</span>
+              </div>
+
+              <div class="year">
+                <img src="./assets/icones/CalendarBlank.svg" alt="" />
+                <span>2023</span>
+              </div>
+
+            </div>
+
+            <button>
+              <img src="./assets/icones/Play.svg" alt="">
+              <span>Assistir Trailer</span>
+            </button>
+
+          </div>
+          
+          <div class="movie">
+            <div class="title">
+              <span>Oppenheimer</span>
+
+              <div>
+                <img src="./assets/icones/Star.svg" alt="" />
+                <p>4.9</p>
+              </div>
+            </div>
+
+            <div class="poster">
+              <img src="./assets/opperheimer.png" alt="" />
+            </div>
+
+            <div class="info">
+              <div class="duration">
+                <img src="./assets/icones/Clock.svg" alt="" />
+                <span>3:00:00</span>
+              </div>
+
+              <div class="year">
+                <img src="./assets/icones/CalendarBlank.svg" alt="" />
+                <span>2023</span>
+              </div>
+
+            </div>
+
+            <button>
+              <img src="./assets/icones/Play.svg" alt="">
+              <span>Assistir Trailer</span>
+            </button>
+
+          </div>
+          
+          <div class="movie">
+            <div class="title">
+              <span>Indiana Jones e o Chamado do Destino</span>
+
+              <div>
+                <img src="./assets/icones/Star.svg" alt="" />
+                <p>4.9</p>
+              </div>
+            </div>
+
+            <div class="poster">
+              <img src="./assets/indiana_jones-dirl_of_destiny.png" alt="" />
+            </div>
+
+            <div class="info">
+              <div class="duration">
+                <img src="./assets/icones/Clock.svg" alt="" />
+                <span>2:22:00</span>
+              </div>
+
+              <div class="year">
+                <img src="./assets/icones/CalendarBlank.svg" alt="" />
+                <span>2023</span>
+              </div>
+
+            </div>
+
+            <button>
+              <img src="./assets/icones/Play.svg" alt="">
+              <span>Assistir Trailer</span>
+            </button>
+
+          </div>
+
+        </section>
+
+      </div>
+    </section>
+  </body>
+</html>
