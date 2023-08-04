@@ -165,3 +165,26 @@ header button {
   font-weight: 400;
   line-height: 20px; /* 125% */
 }
+
+@media (max-width: 870px) {
+  body {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 16.875rem;
+    margin: auto;
+
+    height: auto;
+
+    padding-block: 3.75rem;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .movies {
+    flex-direction: column;
+  }
+}
