@@ -40,6 +40,14 @@ Desafios semanais proposto pela Rocketseat para o projeto [Bora Codar](https://b
 | 28  |         Plataforma de IA          | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-28) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-28) |
 | 29  |          IA Regeneration          | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-29) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-29) |
 | 30  | Sistema de Recomendação de Filmes | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-30) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-30) |
+| 31  |    Transcrição de vídeo com IA    | [👨🏿‍💻](https://github.com/brunodorea/rocketseat-boraCodar/tree/main/desafio-31) | [🏁](https://brunodorea.github.io/rocketseat-boraCodar/desafio-31) |
+
+## Projetos + API (React)
+
+| ### |              Projeto              |                     Código                      |                        Live Preview                        |
+| :-: | :-------------------------------: | :---------------------------------------------: | :--------------------------------------------------------: |
+| 30  | Sistema de Recomendação de Filmes | [👨🏿‍💻](https://gitlab.com/BrunoDorea/boracodar30) | [🏁](https://brunodorea-movie-recommendation.netlify.app/) |
+| 31  |    Transcrição de vídeo com IA    |                     [👨🏿‍💻]()                      |                           [🏁]()                           |
 
 ## 🚀 Tecnologias
 
