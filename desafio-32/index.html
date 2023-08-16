@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <!-- FAVICON -->
+    <link rel='shortcut icon' href='../assets/favicon.png' type='image/png' />
+    <!-- CSS -->
+    <link rel='stylesheet' href='./css/style.css' />
+    <!-- JAVASCRIPT -->
+    <script src='./js/main.js' defer></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+    <title>AskSQL | Bruno Dórea</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD'></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-TJQ2XJZPTD');
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <img src="./assets/logo.svg" />
+
+        <button>
+            <img src="./assets/trash.svg" alt="">
+        </button>
+
+    </header>
+
+    <form>
+        <label htmlFor="schema">Cole seu código SQL aqui:</label>
+
+
+        <textarea name="schema" id="schema"></textarea>
+
+        <label htmlFor="question">Faça uma pergunta sobre o código</label>
+
+        <textarea name="question" id="question"></textarea>
+
+        <button type=''>
+            <img src="./assets/stars.svg" />
+            Perguntar à inteligência artificial
+        </button>
+
+    </form>
+
+    <div>
+
+        <span>Resposta:</span>
+
+        <textarea readonly></textarea>
+
+    </div>
+</body>
+
+</html>
