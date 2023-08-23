@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="./js/main.js" defer></script>
+    <title>Gerador de Ticket | Bruno Dórea</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-TJQ2XJZPTD");
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>gere seu ticket e compartilhe com o mundo</h1>
+
+        <label for="username">Digite seu usuário do GitHub</label>
+
+        <div class="input">
+          <img src="./assets/logo-github.svg" alt="" />
+          <input
+            type="text"
+            id="username"
+            placeholder="Nome de usuário"
+            autocomplete="off"
+            autocapitalize="off"
+          />
+        </div>
+
+        <span id="error">Usuário inválido. Verifique e tente novamente.</span>
+
+        <button>gerar meu ticket</button>
+      </div>
+
+      <div class="ticket">
+        <div class="ticket-container">
+          <img src="./assets/img-cover-ticket.png" alt="" />
+
+          <div class="info">
+            <div class="user-ticket-info">
+              <img src="./assets/img-avatar.png" alt="" id="photo" />
+
+              <span>Tripulante</span>
+
+              <h1 id="name">Seu nome aqui</h1>
+            </div>
+
+            <div class="event-ticket-info">
+              <span>evento</span>
+              <span>ia para devs</span>
+            </div>
+
+            <div class="event-ticket-info">
+              <span>data</span>
+              <span>14- 16 ago. 2023</span>
+            </div>
+
+            <div class="event-ticket-info">
+              <span>hora</span>
+              <span>ao vivo - 19h</span>
+            </div>
+
+            <img src="./assets/lines-svg.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
