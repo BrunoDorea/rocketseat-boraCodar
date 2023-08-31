@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="./js/main.js" defer></script>
+    <title>Lista de Compras | Bruno Dórea</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-TJQ2XJZPTD");
+    </script>
+  </head>
+  <body>
+    <div class="select">
+
+      <div id="category-select">
+        <label for="options-view-button">Categoria</label>
+        <input type="checkbox" id="options-view-button" />
+
+        <div id="select-button">
+          <div id="selected-value">Selecione a categoria</div>
+
+          <div id="chevrons">
+            <i data-lucide="chevron-down"></i>
+            <i data-lucide="chevron-up"></i>
+          </div>
+        </div>
+      </div>
+
+      <ul id="options">
+
+        <li class="option">
+          <input
+            type="radio"
+            name="category"
+            value="bakery"
+            data-label="Padaria"
+          />
+
+          <i data-lucide="sandwich"></i>
+          <span class="label">Padaria</span>
+          <i data-lucide="check"></i>
+        </li>
+
+        <li class="option">
+          <input type="radio" name="category" value="meat" data-label="Carne" />
+
+          <i data-lucide="beef"></i>
+          <span class="label">Carne</span>
+          <i data-lucide="check"></i>
+        </li>
+
+        <li class="option">
+          <input
+            type="radio"
+            name="category"
+            value="drink"
+            data-label="Bebida"
+          />
+
+          <i data-lucide="milk"></i>
+          <span class="label">Bebida</span>
+          <i data-lucide="check"></i>
+        </li>
+
+    </ul>
+
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </body>
+</html>
